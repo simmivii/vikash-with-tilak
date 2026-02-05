@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vikash & Simpel | Wedding Invitation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Wedding Invitation Cover -->
+<div id="invitation-cover" class="invitation-cover" onclick="openInvitation()">
+    <div class="elegant-invitation">
+        <p class="families-text">TOGETHER WITH THEIR FAMILIES</p>
+        
+        <div class="couple-names-elegant">
+            <h1 class="names-script">Er. Vikash & Dr. Simpel</h1>
+            <p class="rsvp-text">R.S.V.P.</p>
+        </div>
+        
+        <div class="invitation-text">
+            <p class="hindi-invitation">हम आपको अपने विवाह समारोह में सादर आमंत्रित करते हैं</p>
+            <p class="english-invitation">We joyfully invite you to celebrate our wedding 💍</p>
+        </div>
+        
+        <div class="envelope-container">
+            <div class="envelope-main">
+                <div class="envelope-flap-new"></div>
+                <div class="envelope-body-new">
+                    <div class="envelope-logo">
+                        <img src="images/logo.jpeg" alt="Wedding Logo" class="logo-image">
+                    </div>
+                </div>
+                <div class="floral-decoration">
+                    <div class="botanical-corner">
+                        <div class="eucalyptus-branch branch-1">
+                            <div class="eucalyptus-leaf leaf-e1"></div>
+                            <div class="eucalyptus-leaf leaf-e2"></div>
+                            <div class="eucalyptus-leaf leaf-e3"></div>
+                            <div class="eucalyptus-leaf leaf-e4"></div>
+                        </div>
+                        <div class="eucalyptus-branch branch-2">
+                            <div class="eucalyptus-leaf leaf-e5"></div>
+                            <div class="eucalyptus-leaf leaf-e6"></div>
+                            <div class="eucalyptus-leaf leaf-e7"></div>
+                        </div>
+                        <div class="rose-bloom rose-main">
+                            <div class="rose-petal petal-1"></div>
+                            <div class="rose-petal petal-2"></div>
+                            <div class="rose-petal petal-3"></div>
+                            <div class="rose-petal petal-4"></div>
+                            <div class="rose-petal petal-5"></div>
+                            <div class="rose-center"></div>
+                        </div>
+                        <div class="rose-bloom rose-small">
+                            <div class="rose-petal petal-s1"></div>
+                            <div class="rose-petal petal-s2"></div>
+                            <div class="rose-petal petal-s3"></div>
+                            <div class="rose-center-small"></div>
+                        </div>
+                        <div class="rose-bud bud-closed">
+                            <div class="bud-petal bud-p1"></div>
+                            <div class="bud-petal bud-p2"></div>
+                        </div>
+                        <div class="flower"></div>
+                        <div class="flower flower-2"></div>
+                        <div class="flower flower-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="instruction-text">
+            <p>LIFT THE SEAL TO <span class="hand-icon">👆</span>BEGIN</p>
+        </div>
+    </div>
+</div>
+
+<!-- Main Wedding Content -->
+<div id="main-content" class="main-content hidden">
+
+<!-- Celebration Effect Container -->
+<div id="celebration-container" class="celebration-container">
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+</div>
+
+<audio id="backgroundMusic" autoplay loop preload="metadata" style="display: none;">
+    <source src="music.mp3" type="audio/mpeg">
+    <source src="music.mp3" type="audio/mp3">
+</audio>
+
+<header class="hero">
+    <div class="wedding-logo">
+        <div class="logo-circle">
+            <span class="logo-initials">S & V</span>
+        </div>
+    </div>
+    
+    <div class="countdown-section">
+        <h2>Wedding Countdown</h2>
+        <div id="timer"></div>
+    </div>
+</header>
+
+<div class="events-container">
+<section class="event">
+    <img src="images/haldi.jpeg">
+    <div class="details">
+        <h2>Haldi Ceremony</h2>
+        <p><strong>Date:</strong> 24 April 2026</p>
+        <p><strong>Time:</strong> 10 AM</p>
+        <p><strong>Venue:</strong> Arunya Gautam Vihar Hotel & Resort, Rajgir</p>
+        <p><strong>Dress Code:</strong> Floral or Multicolor</p>
+        <a class="map" href="https://maps.app.goo.gl/p6Vm2QMkToVGvj8CA?g_st=aw" target="_blank">📍 Open in Google Maps</a>
+    </div>
+</section>
+
+<section class="event">
+    <img src="images/sangeet.jpeg">
+    <div class="details">
+        <h2>Sangeet Night</h2>
+        <p><strong>Date:</strong> 24 April 2026</p>
+        <p><strong>Time:</strong> 5 PM</p>
+        <p><strong>Venue:</strong> Arunya Gautam Vihar Hotel & Resort, Rajgir</p>
+        <p><strong>Dress Code:</strong> Shimmer or Glitter</p>
+        <a class="map" href="https://maps.app.goo.gl/p6Vm2QMkToVGvj8CA?g_st=aw" target="_blank">📍 Open in Google Maps</a>
+    </div>
+</section>
+</div>
+
+<div class="events-container">
+<section class="event">
+    <img src="images/wedding.jpeg">
+    <div class="details">
+        <h2>Wedding Ceremony</h2>
+        <p><strong>Date:</strong> Thursday, 25 April 2026</p>
+        <p><strong>Time:</strong> 5 PM</p>
+        <p><strong>Venue:</strong> Arunya Gautam Vihar Hotel & Resort, Rajgir</p>
+        <p><strong>Dress Code:</strong> Traditional / Ethnic</p>
+        <a class="map" href="https://maps.google.com/?q=Arunya+Gautam+Vihar+Hotel+Rajgir" target="_blank">
+            📍 Open in Google Maps
+        </a>
+    </div>
+</section>
+
+<section class="event">
+    <img src="images/reception.jpeg">
+    <div class="details">
+        <h2>Reception Party</h2>
+        <p><strong>Date:</strong> 27 April 2026</p>
+        <p><strong>Time:</strong> 6 PM</p>
+        <p><strong>Venue:</strong> Paliganj, Bihar</p>
+        <p><strong>Dress Code:</strong> Party Wear or Formal</p>
+        <a class="map" href="https://maps.app.goo.gl/EqZfNJspgc7s5agL9?g_st=aw" target="_blank">📍 Open in Google Maps</a>
+    </div>
+</section>
+</div>
+
+<section class="journey-section">
+    <h2>Our Love Journey Across India 🗺️💕</h2>
+    <p>From strangers to soulmates - here's how our love story unfolded across cities and adventures!</p>
+    
+    <div class="journey-landscape">
+        <img src="images/Journey.png" alt="Our Love Journey Across India" class="journey-illustration">
+    </div>
+</section>
+
+<section class="rsvp-section">
+    <h2>Please Confirm Your Attendance 📝</h2>
+    <div class="rsvp-buttons">
+        <button class="rsvp-btn attending" onclick="sendRSVP('attending')">✅ Will Attend</button>
+        <button class="rsvp-btn not-attending" onclick="sendRSVP('not-attending')">❌ Can't Attend</button>
+    </div>
+</section>
+
+<div class="accommodation-container">
+<section class="accommodation-section">
+    <h2>Flying In From Far Away? ✈️🌍</h2>
+    <p>So you're too fancy to take the train like the rest of us? We get it! 😎</p>
+    <p>Need to fly in for our big day? (And probably fly out quickly after seeing our dance moves 💃🕺)</p>
+    
+    <div class="funny-accommodation">
+        <h3>✈️ Our Flight Service!</h3>
+        <p>Because walking to Bihar would take forever, and we can't delay the wedding! 🚶‍♂️➡️🏃‍♂️</p>
+        <p>Click below and our flight team will get you the best deals:</p>
+        
+        <a href="https://www.skyscanner.co.in/transport/flights/blr/pat/260424/260426/?cabinclass=economy&childrenv2=&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false&currency=INR&locale=en-GB&_gl=1*5o9rup*_gcl_au*MTAzOTU0NDgzLjE3Njg4OTgzMzc.*FPAU*MTAzOTU0NDgzLjE3Njg4OTgzMzc.&market=IN&userSessionDataId=322d1340-2c7c-437f-bcfc-167e76682cce&ref=home&adultsv2=1" 
+           target="_blank" 
+           class="flight-booking-btn">
+            ✈️ Check Flight Options (We Got Deals!)
+        </a>
+        
+        <div class="funny-notes">
+            <p><strong>Flight Pro Tips:</strong></p>
+            <ul>
+                <li>✈️ Economy class is fine - save money for our gift! 💸</li>
+                <li>🧳 Pack light, but don't forget your dancing shoes! 👠</li>
+            </ul>
+        </div>
+        
+        <p class="disclaimer">*If your flight gets delayed, just blame it on "Indian System" - we'll understand! 🕰️😅*</p>
+    </div>
+</section>
+</div>
+
+<section class="contact-section">
+    <h2>📞 Contact Details</h2>
+    
+    <div class="contact-container">
+        <div class="contact-side">
+            <h3>👰 Bride's Side</h3>
+            <div class="contact-numbers">
+                <p>📱 9304657373</p>
+                <p>📱 9955591045</p>
+                <p>📱 8578854150</p>
+            </div>
+        </div>
+        
+        <div class="contact-side">
+            <h3>🤵 Groom's Side</h3>
+            <div class="contact-numbers">
+                <p>📱 9340135441</p>
+                <p>📱 9771145032</p>
+                <p>📱 8083601181</p>
+                <p>📱 7488545613</p>
+                <p>📱 8271527104</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="hotel-contact">
+        <h3>🏨 For Room & Hotel Location</h3>
+        <p>📱 09264494053</p>
+    </div>
+</section>
+
+<footer>
+    <p>With love & blessings ❤️</p>
+    <h3>Vikash & Simpel</h3>
+</footer>
+
+</div> <!-- End main-content -->
+
+
+<script src="script.js"></script>
+</body>
+</html>
